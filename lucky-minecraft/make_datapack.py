@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+# COMMAND FOR START 
+#   python .\make_datapack.py --csv ".\summary.csv" --out ".\lwi_loot_datapack"
 import argparse
 import csv
 import json
