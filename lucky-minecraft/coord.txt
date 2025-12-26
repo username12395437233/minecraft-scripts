@@ -1,0 +1,8 @@
+/execute in minecraft:overworld run tp @s 241.30 65.00 471.30 1837.35 49.00
+/execute in minecraft:overworld run tp @s 225.70 65.00 497.46 1711.35 90.00
+/execute in minecraft:overworld run tp @s 247.70 65.00 455.59 2268.31 84.90
+/execute in minecraft:overworld run tp @s 218.30 65.00 450.30 2495.41 73.35
+/execute in minecraft:overworld run tp @s 187.30 65.00 452.70 2704.81 75.90
+/execute in minecraft:overworld run tp @s 174.70 65.00 472.70 2969.71 82.05
+/execute in minecraft:overworld run tp @s 193.30 65.00 482.30 2830.21 66.15
+/execute in minecraft:overworld run tp @s 162.59 65.00 485.70 2885.72 77.09

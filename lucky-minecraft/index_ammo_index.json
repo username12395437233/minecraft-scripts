@@ -1,0 +1,462 @@
+[
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\12g.json",
+    "rel_file": "index\\ammo\\12g.json",
+    "basename": "12g",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:12g",
+    "name": "tacz.ammo.12g.name",
+    "display": "tacz:12g_display",
+    "stack_size": 36,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.12g.name",
+      "display": "tacz:12g_display",
+      "stack_size": 36
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\308.json",
+    "rel_file": "index\\ammo\\308.json",
+    "basename": "308",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:308",
+    "name": "tacz.ammo.308.name",
+    "display": "tacz:308_display",
+    "stack_size": 48,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.308.name",
+      "display": "tacz:308_display",
+      "stack_size": 48
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\30_06.json",
+    "rel_file": "index\\ammo\\30_06.json",
+    "basename": "30_06",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:30_06",
+    "name": "tacz.ammo.30_06.name",
+    "display": "tacz:30_06_display",
+    "stack_size": 36,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.30_06.name",
+      "display": "tacz:30_06_display",
+      "stack_size": 36
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\338.json",
+    "rel_file": "index\\ammo\\338.json",
+    "basename": "338",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:338",
+    "name": "tacz.ammo.338.name",
+    "display": "tacz:338_display",
+    "stack_size": 30,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.338.name",
+      "display": "tacz:338_display",
+      "stack_size": 30
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\357mag.json",
+    "rel_file": "index\\ammo\\357mag.json",
+    "basename": "357mag",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:357mag",
+    "name": "tacz.ammo.357mag.name",
+    "display": "tacz:357mag_display",
+    "stack_size": 48,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.357mag.name",
+      "display": "tacz:357mag_display",
+      "stack_size": 48
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\40mm.json",
+    "rel_file": "index\\ammo\\40mm.json",
+    "basename": "40mm",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:40mm",
+    "name": "tacz.ammo.40mm.name",
+    "display": "tacz:40mm_display",
+    "stack_size": 6,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.40mm.name",
+      "display": "tacz:40mm_display",
+      "stack_size": 6
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\45acp.json",
+    "rel_file": "index\\ammo\\45acp.json",
+    "basename": "45acp",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:45acp",
+    "name": "tacz.ammo.45acp.name",
+    "display": "tacz:45acp_display",
+    "stack_size": 60,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.45acp.name",
+      "display": "tacz:45acp_display",
+      "stack_size": 60
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\45_70.json",
+    "rel_file": "index\\ammo\\45_70.json",
+    "basename": "45_70",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:45_70",
+    "name": "tacz.ammo.45_70.name",
+    "display": "tacz:45_70_display",
+    "stack_size": 48,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.45_70.name",
+      "display": "tacz:45_70_display",
+      "stack_size": 48
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\46x30.json",
+    "rel_file": "index\\ammo\\46x30.json",
+    "basename": "46x30",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:46x30",
+    "name": "tacz.ammo.46x30.name",
+    "display": "tacz:46x30_display",
+    "stack_size": 60,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.46x30.name",
+      "display": "tacz:46x30_display",
+      "stack_size": 60
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\50ae.json",
+    "rel_file": "index\\ammo\\50ae.json",
+    "basename": "50ae",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:50ae",
+    "name": "tacz.ammo.50ae.name",
+    "display": "tacz:50ae_display",
+    "stack_size": 48,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.50ae.name",
+      "display": "tacz:50ae_display",
+      "stack_size": 48
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\50bmg.json",
+    "rel_file": "index\\ammo\\50bmg.json",
+    "basename": "50bmg",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:50bmg",
+    "name": "tacz.ammo.50bmg.name",
+    "display": "tacz:50bmg_display",
+    "stack_size": 30,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.50bmg.name",
+      "display": "tacz:50bmg_display",
+      "stack_size": 30
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\556x45.json",
+    "rel_file": "index\\ammo\\556x45.json",
+    "basename": "556x45",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:556x45",
+    "name": "tacz.ammo.556x45.name",
+    "display": "tacz:556x45_display",
+    "stack_size": 60,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.556x45.name",
+      "display": "tacz:556x45_display",
+      "stack_size": 60
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\57x28.json",
+    "rel_file": "index\\ammo\\57x28.json",
+    "basename": "57x28",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:57x28",
+    "name": "tacz.ammo.57x28.name",
+    "display": "tacz:57x28_display",
+    "stack_size": 60,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.57x28.name",
+      "display": "tacz:57x28_display",
+      "stack_size": 60
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\58x42.json",
+    "rel_file": "index\\ammo\\58x42.json",
+    "basename": "58x42",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:58x42",
+    "name": "tacz.ammo.58x42.name",
+    "display": "tacz:58x42_display",
+    "stack_size": 60,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.58x42.name",
+      "display": "tacz:58x42_display",
+      "stack_size": 60
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\68x51fury.json",
+    "rel_file": "index\\ammo\\68x51fury.json",
+    "basename": "68x51fury",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:68x51fury",
+    "name": "tacz.ammo.68x51fury.name",
+    "display": "tacz:68x51fury_display",
+    "stack_size": 60,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.68x51fury.name",
+      "display": "tacz:68x51fury_display",
+      "stack_size": 60
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\762x25.json",
+    "rel_file": "index\\ammo\\762x25.json",
+    "basename": "762x25",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:762x25",
+    "name": "tacz.ammo.762x25.name",
+    "display": "tacz:762x25_display",
+    "stack_size": 60,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.762x25.name",
+      "display": "tacz:762x25_display",
+      "stack_size": 60
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\762x39.json",
+    "rel_file": "index\\ammo\\762x39.json",
+    "basename": "762x39",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:762x39",
+    "name": "tacz.ammo.762x39.name",
+    "display": "tacz:762x39_display",
+    "stack_size": 60,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.762x39.name",
+      "display": "tacz:762x39_display",
+      "stack_size": 60
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\762x54.json",
+    "rel_file": "index\\ammo\\762x54.json",
+    "basename": "762x54",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:762x54",
+    "name": "tacz.ammo.762x54.name",
+    "display": "tacz:762x54_display",
+    "stack_size": 60,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.762x54.name",
+      "display": "tacz:762x54_display",
+      "stack_size": 60
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\9mm.json",
+    "rel_file": "index\\ammo\\9mm.json",
+    "basename": "9mm",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:9mm",
+    "name": "tacz.ammo.9mm.name",
+    "display": "tacz:9mm_display",
+    "stack_size": 60,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.9mm.name",
+      "display": "tacz:9mm_display",
+      "stack_size": 60
+    }
+  },
+  {
+    "source": "index",
+    "category": "ammo",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\index\\ammo\\rpg_rocket.json",
+    "rel_file": "index\\ammo\\rpg_rocket.json",
+    "basename": "rpg_rocket",
+    "error": null,
+    "namespace_guess": "tacz",
+    "index_id": "tacz:rpg_rocket",
+    "name": "tacz.ammo.rpg_rocket.name",
+    "display": "tacz:rpg_rocket_display",
+    "stack_size": 6,
+    "_keys": [
+      "display",
+      "name",
+      "stack_size"
+    ],
+    "raw": {
+      "name": "tacz.ammo.rpg_rocket.name",
+      "display": "tacz:rpg_rocket_display",
+      "stack_size": 6
+    }
+  }
+]

@@ -1,0 +1,2389 @@
+[
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\ammo_mod_fmj_data.json",
+    "rel_file": "data\\attachments\\ammo_mod_fmj_data.json",
+    "basename": "ammo_mod_fmj_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:ammo_mod_fmj_data",
+    "_keys": [
+      "ads",
+      "ammo_speed",
+      "armor_ignore",
+      "damage",
+      "extended_mag_level",
+      "pierce",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.6,
+      "ads": {
+        "addend": 0.02
+      },
+      "pierce": {
+        "function": "if (x > 2) then y = x + 2 else y = x end"
+      },
+      "armor_ignore": {
+        "function": "if (x > 0.5) then y = x*1.5 else y = x*1.75 end"
+      },
+      "damage": {
+        "multiplier": 0.9
+      },
+      "ammo_speed": {
+        "multiplier": 1.1
+      },
+      "extended_mag_level": 3
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\ammo_mod_he_data.json",
+    "rel_file": "data\\attachments\\ammo_mod_he_data.json",
+    "basename": "ammo_mod_he_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:ammo_mod_he_data",
+    "_keys": [
+      "armor_ignore",
+      "explosion",
+      "extended_mag_level",
+      "head_shot",
+      "pierce",
+      "rpm",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.6,
+      "explosion": {
+        "explode": true
+      },
+      "armor_ignore": {
+        "multiplier": 0.5
+      },
+      "head_shot": {
+        "multiplier": 0
+      },
+      "pierce": {
+        "multiplier": 0
+      },
+      "rpm": {
+        "multiplier": 0.85
+      },
+      "extended_mag_level": 1
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\ammo_mod_hp_data.json",
+    "rel_file": "data\\attachments\\ammo_mod_hp_data.json",
+    "basename": "ammo_mod_hp_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:ammo_mod_hp_data",
+    "_keys": [
+      "ads",
+      "ammo_speed",
+      "armor_ignore",
+      "damage",
+      "extended_mag_level",
+      "pierce",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.6,
+      "ads": {
+        "addend": 0.02
+      },
+      "armor_ignore": {
+        "multiplier": 0.5
+      },
+      "damage": {
+        "multiplier": 1.3
+      },
+      "ammo_speed": {
+        "multiplier": 0.9
+      },
+      "pierce": {
+        "multiplier": 0
+      },
+      "extended_mag_level": 3
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\ammo_mod_i_data.json",
+    "rel_file": "data\\attachments\\ammo_mod_i_data.json",
+    "basename": "ammo_mod_i_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:ammo_mod_i_data",
+    "_keys": [
+      "ads",
+      "ammo_speed",
+      "armor_ignore",
+      "damage",
+      "extended_mag_level",
+      "ignite",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.6,
+      "ads": {
+        "addend": 0.02
+      },
+      "ignite": {
+        "entity": true
+      },
+      "armor_ignore": {
+        "multiplier": 0.8
+      },
+      "damage": {
+        "multiplier": 1.1
+      },
+      "ammo_speed": {
+        "multiplier": 1.0
+      },
+      "extended_mag_level": 3
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\bayonet_6h3_data.json",
+    "rel_file": "data\\attachments\\bayonet_6h3_data.json",
+    "basename": "bayonet_6h3_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:bayonet_6h3_data",
+    "_keys": [
+      "ads",
+      "melee",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.34,
+      "ads": {
+        "addend": 0.03
+      },
+      "melee": {
+        "distance": 2,
+        "range_angle": 45,
+        "damage": 5,
+        "knockback": 0.4,
+        "prep": 0.1
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\bayonet_m9_data.json",
+    "rel_file": "data\\attachments\\bayonet_m9_data.json",
+    "basename": "bayonet_m9_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:bayonet_m9_data",
+    "_keys": [
+      "ads",
+      "melee",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.34,
+      "ads": {
+        "addend": 0.03
+      },
+      "melee": {
+        "distance": 2,
+        "range_angle": 45,
+        "cooldown": 0,
+        "damage": 6,
+        "knockback": 0.4,
+        "prep": 0.1
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\deagle_golden_long_barrel_data.json",
+    "rel_file": "data\\attachments\\deagle_golden_long_barrel_data.json",
+    "basename": "deagle_golden_long_barrel_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:deagle_golden_long_barrel_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "effective_range",
+      "inaccuracy",
+      "recoil",
+      "silence",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.4,
+      "ads": {
+        "addend": 0.04
+      },
+      "inaccuracy": {
+        "multiplier": 0.9
+      },
+      "aim_inaccuracy": {
+        "multiplier": 0.85
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.8
+        },
+        "yaw": {
+          "multiplier": 0.8
+        }
+      },
+      "effective_range": {
+        "addend": 5
+      },
+      "silence": {
+        "distance_addend": -12,
+        "use_silence_sound": true
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\extended_mag_1_data.json",
+    "rel_file": "data\\attachments\\extended_mag_1_data.json",
+    "basename": "extended_mag_1_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:extended_mag_1_data",
+    "_keys": [
+      "ads",
+      "extended_mag_level",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.4,
+      "ads": {
+        "addend": 0.01
+      },
+      "extended_mag_level": 1
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\extended_mag_2_data.json",
+    "rel_file": "data\\attachments\\extended_mag_2_data.json",
+    "basename": "extended_mag_2_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:extended_mag_2_data",
+    "_keys": [
+      "ads",
+      "extended_mag_level",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.6,
+      "ads": {
+        "addend": 0.025
+      },
+      "extended_mag_level": 2
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\extended_mag_3_data.json",
+    "rel_file": "data\\attachments\\extended_mag_3_data.json",
+    "basename": "extended_mag_3_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:extended_mag_3_data",
+    "_keys": [
+      "ads",
+      "extended_mag_level",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.8,
+      "ads": {
+        "addend": 0.045
+      },
+      "extended_mag_level": 3
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\grip_cobra_data.json",
+    "rel_file": "data\\attachments\\grip_cobra_data.json",
+    "basename": "grip_cobra_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:grip_cobra_data",
+    "_keys": [
+      "ads",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.08,
+      "ads": {
+        "multiplier": 0.85
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\grip_cqr_data.json",
+    "rel_file": "data\\attachments\\grip_cqr_data.json",
+    "basename": "grip_cqr_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:grip_cqr_data",
+    "_keys": [
+      "ads",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.167,
+      "ads": {
+        "multiplier": 0.85
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.92
+        },
+        "yaw": {
+          "multiplier": 0.92
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\grip_magpul_afg_2_data.json",
+    "rel_file": "data\\attachments\\grip_magpul_afg_2_data.json",
+    "basename": "grip_magpul_afg_2_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:grip_magpul_afg_2_data",
+    "_keys": [
+      "ads",
+      "inaccuracy",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.2,
+      "ads": {
+        "multiplier": 0.95
+      },
+      "inaccuracy": {
+        "multiplier": 1.1
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.85
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\grip_osovets_black_data.json",
+    "rel_file": "data\\attachments\\grip_osovets_black_data.json",
+    "basename": "grip_osovets_black_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:grip_osovets_black_data",
+    "_keys": [
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.125,
+      "recoil": {
+        "yaw": {
+          "multiplier": 0.75
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\grip_rk0_data.json",
+    "rel_file": "data\\attachments\\grip_rk0_data.json",
+    "basename": "grip_rk0_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:grip_rk0_data",
+    "_keys": [
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.138,
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.8
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\grip_rk1_b25u_data.json",
+    "rel_file": "data\\attachments\\grip_rk1_b25u_data.json",
+    "basename": "grip_rk1_b25u_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:grip_rk1_b25u_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "inaccuracy",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.18,
+      "ads": {
+        "addend": 0.18
+      },
+      "recoil": {
+        "yaw": {
+          "multiplier": 0.66
+        }
+      },
+      "inaccuracy": {
+        "multiplier": 0.48
+      },
+      "aim_inaccuracy": {
+        "multiplier": 1.25
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\grip_rk6_data.json",
+    "rel_file": "data\\attachments\\grip_rk6_data.json",
+    "basename": "grip_rk6_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:grip_rk6_data",
+    "_keys": [
+      "ads",
+      "inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.1,
+      "ads": {
+        "multiplier": 0.85
+      },
+      "inaccuracy": {
+        "multiplier": 0.88
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\grip_se_5_data.json",
+    "rel_file": "data\\attachments\\grip_se_5_data.json",
+    "basename": "grip_se_5_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:grip_se_5_data",
+    "_keys": [
+      "ads",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.09,
+      "ads": {
+        "multiplier": 0.85
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.93
+        },
+        "yaw": {
+          "multiplier": 0.92
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\grip_td_data.json",
+    "rel_file": "data\\attachments\\grip_td_data.json",
+    "basename": "grip_td_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:grip_td_data",
+    "_keys": [
+      "aim_inaccuracy",
+      "inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.133,
+      "aim_inaccuracy": {
+        "multiplier": 0.88
+      },
+      "inaccuracy": {
+        "multiplier": 0.88
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\grip_vertical_military_data.json",
+    "rel_file": "data\\attachments\\grip_vertical_military_data.json",
+    "basename": "grip_vertical_military_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:grip_vertical_military_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.25,
+      "ads": {
+        "multiplier": 1.02
+      },
+      "aim_inaccuracy": {
+        "multiplier": 0.85
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.8
+        },
+        "yaw": {
+          "multiplier": 0.8
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\grip_vertical_ranger_data.json",
+    "rel_file": "data\\attachments\\grip_vertical_ranger_data.json",
+    "basename": "grip_vertical_ranger_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:grip_vertical_ranger_data",
+    "_keys": [
+      "ads",
+      "inaccuracy",
+      "recoil",
+      "sneak_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.8,
+      "ads": {
+        "multiplier": 1.05
+      },
+      "inaccuracy": {
+        "multiplier": 0.7
+      },
+      "sneak_inaccuracy": {
+        "multiplier": 0.75
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.8
+        },
+        "yaw": {
+          "multiplier": 0.7
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\grip_vertical_talon_data.json",
+    "rel_file": "data\\attachments\\grip_vertical_talon_data.json",
+    "basename": "grip_vertical_talon_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:grip_vertical_talon_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.2,
+      "ads": {
+        "multiplier": 1.01
+      },
+      "aim_inaccuracy": {
+        "multiplier": 0.8
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.85
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\laser_compact_data.json",
+    "rel_file": "data\\attachments\\laser_compact_data.json",
+    "basename": "laser_compact_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:laser_compact_data",
+    "_keys": [
+      "aim_inaccuracy",
+      "inaccuracy",
+      "sneak_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.13,
+      "aim_inaccuracy": {
+        "multiplier": 0.6
+      },
+      "inaccuracy": {
+        "multiplier": 0.7
+      },
+      "sneak_inaccuracy": {
+        "multiplier": 0.7
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\laser_lopro_data.json",
+    "rel_file": "data\\attachments\\laser_lopro_data.json",
+    "basename": "laser_lopro_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:laser_lopro_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "inaccuracy",
+      "sneak_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 1,
+      "ads": {
+        "addend": 0.12
+      },
+      "aim_inaccuracy": {
+        "multiplier": 0.25
+      },
+      "inaccuracy": {
+        "multiplier": 0.75
+      },
+      "sneak_inaccuracy": {
+        "multiplier": 0.5
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\laser_nightstick_data.json",
+    "rel_file": "data\\attachments\\laser_nightstick_data.json",
+    "basename": "laser_nightstick_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:laser_nightstick_data",
+    "_keys": [
+      "ads",
+      "inaccuracy",
+      "sneak_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.2,
+      "ads": {
+        "addend": 0.06
+      },
+      "sneak_inaccuracy": {
+        "multiplier": 0.75
+      },
+      "inaccuracy": {
+        "multiplier": 0.6
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\laser_peq15_data.json",
+    "rel_file": "data\\attachments\\laser_peq15_data.json",
+    "basename": "laser_peq15_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:laser_peq15_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "sneak_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.133,
+      "ads": {
+        "addend": -0.03
+      },
+      "aim_inaccuracy": {
+        "multiplier": 0.88
+      },
+      "sneak_inaccuracy": {
+        "multiplier": 0.5
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\light_extended_mag_1_data.json",
+    "rel_file": "data\\attachments\\light_extended_mag_1_data.json",
+    "basename": "light_extended_mag_1_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:light_extended_mag_1_data",
+    "_keys": [
+      "ads",
+      "extended_mag_level",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.2,
+      "ads": {
+        "addend": 0.01
+      },
+      "extended_mag_level": 1
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\light_extended_mag_2_data.json",
+    "rel_file": "data\\attachments\\light_extended_mag_2_data.json",
+    "basename": "light_extended_mag_2_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:light_extended_mag_2_data",
+    "_keys": [
+      "ads",
+      "extended_mag_level",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.3,
+      "ads": {
+        "addend": 0.02
+      },
+      "extended_mag_level": 2
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\light_extended_mag_3_data.json",
+    "rel_file": "data\\attachments\\light_extended_mag_3_data.json",
+    "basename": "light_extended_mag_3_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:light_extended_mag_3_data",
+    "_keys": [
+      "ads",
+      "extended_mag_level",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.4,
+      "ads": {
+        "addend": 0.03
+      },
+      "extended_mag_level": 3
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\muzzle_brake_cthulhu_data.json",
+    "rel_file": "data\\attachments\\muzzle_brake_cthulhu_data.json",
+    "basename": "muzzle_brake_cthulhu_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:muzzle_brake_cthulhu_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "inaccuracy",
+      "recoil"
+    ],
+    "raw": {
+      "ads": {
+        "addend": 0.02
+      },
+      "inaccuracy": {
+        "multiplier": 1.1
+      },
+      "aim_inaccuracy": {
+        "multiplier": 0.9
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.85
+        },
+        "yaw": {
+          "multiplier": 0.8
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\muzzle_brake_cyclone_d2_data.json",
+    "rel_file": "data\\attachments\\muzzle_brake_cyclone_d2_data.json",
+    "basename": "muzzle_brake_cyclone_d2_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:muzzle_brake_cyclone_d2_data",
+    "_keys": [
+      "ads",
+      "inaccuracy",
+      "recoil"
+    ],
+    "raw": {
+      "ads": {
+        "addend": 0.02
+      },
+      "inaccuracy": {
+        "multiplier": 1.1
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.8
+        },
+        "yaw": {
+          "multiplier": 0.7
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\muzzle_brake_pioneer_data.json",
+    "rel_file": "data\\attachments\\muzzle_brake_pioneer_data.json",
+    "basename": "muzzle_brake_pioneer_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:muzzle_brake_pioneer_data",
+    "_keys": [
+      "ads",
+      "inaccuracy",
+      "recoil"
+    ],
+    "raw": {
+      "ads": {
+        "addend": 0.02
+      },
+      "inaccuracy": {
+        "multiplier": 1.15
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.33
+        },
+        "yaw": {
+          "multiplier": 1.33
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\muzzle_brake_timeless50_data.json",
+    "rel_file": "data\\attachments\\muzzle_brake_timeless50_data.json",
+    "basename": "muzzle_brake_timeless50_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:muzzle_brake_timeless50_data",
+    "_keys": [
+      "ads",
+      "inaccuracy",
+      "recoil",
+      "sneak_inaccuracy"
+    ],
+    "raw": {
+      "ads": {
+        "addend": 0.03
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.35
+        },
+        "yaw": {
+          "multiplier": 0.75
+        }
+      },
+      "inaccuracy": {
+        "multiplier": 0.6
+      },
+      "sneak_inaccuracy": {
+        "multiplier": 0.5
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\muzzle_brake_trex_data.json",
+    "rel_file": "data\\attachments\\muzzle_brake_trex_data.json",
+    "basename": "muzzle_brake_trex_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:muzzle_brake_trex_data",
+    "_keys": [
+      "ads",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.5,
+      "ads": {
+        "addend": 0.03
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.66
+        },
+        "yaw": {
+          "multiplier": 0.95
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\muzzle_compensator_trident_data.json",
+    "rel_file": "data\\attachments\\muzzle_compensator_trident_data.json",
+    "basename": "muzzle_compensator_trident_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:muzzle_compensator_trident_data",
+    "_keys": [
+      "ads",
+      "inaccuracy",
+      "recoil"
+    ],
+    "raw": {
+      "ads": {
+        "addend": 0.01
+      },
+      "inaccuracy": {
+        "multiplier": 0.85
+      },
+      "recoil": {
+        "yaw": {
+          "multiplier": 0.6
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\muzzle_silencer_knight_qd_data.json",
+    "rel_file": "data\\attachments\\muzzle_silencer_knight_qd_data.json",
+    "basename": "muzzle_silencer_knight_qd_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:muzzle_silencer_knight_qd_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "recoil",
+      "silence",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.35,
+      "ads": {
+        "addend": 0.02
+      },
+      "aim_inaccuracy": {
+        "multiplier": 0.75
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.8
+        }
+      },
+      "silence": {
+        "distance_addend": -20,
+        "use_silence_sound": true
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\muzzle_silencer_mirage_data.json",
+    "rel_file": "data\\attachments\\muzzle_silencer_mirage_data.json",
+    "basename": "muzzle_silencer_mirage_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:muzzle_silencer_mirage_data",
+    "_keys": [
+      "effective_range",
+      "head_shot",
+      "inaccuracy",
+      "silence",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.15,
+      "head_shot": {
+        "multiplier": 1.25
+      },
+      "inaccuracy": {
+        "multiplier": 1.1
+      },
+      "effective_range": {
+        "multiplier": 0.8
+      },
+      "silence": {
+        "distance_addend": -24,
+        "use_silence_sound": true
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\muzzle_silencer_phantom_s1_data.json",
+    "rel_file": "data\\attachments\\muzzle_silencer_phantom_s1_data.json",
+    "basename": "muzzle_silencer_phantom_s1_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:muzzle_silencer_phantom_s1_data",
+    "_keys": [
+      "ads",
+      "effective_range",
+      "inaccuracy",
+      "rpm",
+      "silence",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.25,
+      "ads": {
+        "addend": 0.02
+      },
+      "inaccuracy": {
+        "multiplier": 1.1
+      },
+      "effective_range": {
+        "multiplier": 1.5
+      },
+      "rpm": {
+        "multiplier": 0.95
+      },
+      "silence": {
+        "distance_addend": -20,
+        "use_silence_sound": true
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\muzzle_silencer_ptilopsis_data.json",
+    "rel_file": "data\\attachments\\muzzle_silencer_ptilopsis_data.json",
+    "basename": "muzzle_silencer_ptilopsis_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:muzzle_silencer_ptilopsis_data",
+    "_keys": [
+      "ads",
+      "effective_range",
+      "inaccuracy",
+      "silence",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.4,
+      "ads": {
+        "addend": 0.06
+      },
+      "inaccuracy": {
+        "multiplier": 0.8
+      },
+      "effective_range": {
+        "multiplier": 1.25
+      },
+      "silence": {
+        "distance_addend": -24,
+        "use_silence_sound": true
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\muzzle_silencer_ursus_data.json",
+    "rel_file": "data\\attachments\\muzzle_silencer_ursus_data.json",
+    "basename": "muzzle_silencer_ursus_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:muzzle_silencer_ursus_data",
+    "_keys": [
+      "ads",
+      "effective_range",
+      "inaccuracy",
+      "recoil",
+      "silence",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.35,
+      "ads": {
+        "addend": 0.035
+      },
+      "inaccuracy": {
+        "multiplier": 1.15
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.75
+        },
+        "yaw": {
+          "multiplier": 0.8
+        }
+      },
+      "effective_range": {
+        "multiplier": 1.2
+      },
+      "silence": {
+        "distance_addend": -18,
+        "use_silence_sound": true
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\muzzle_silencer_vulture_data.json",
+    "rel_file": "data\\attachments\\muzzle_silencer_vulture_data.json",
+    "basename": "muzzle_silencer_vulture_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:muzzle_silencer_vulture_data",
+    "_keys": [
+      "ads",
+      "effective_range",
+      "head_shot",
+      "inaccuracy",
+      "recoil",
+      "silence",
+      "weight"
+    ],
+    "raw": {
+      "weight": 1.55,
+      "ads": {
+        "addend": 0.09
+      },
+      "inaccuracy": {
+        "multiplier": 1.1
+      },
+      "effective_range": {
+        "multiplier": 1.25
+      },
+      "head_shot": {
+        "addend": 0.25
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.66
+        },
+        "yaw": {
+          "multiplier": 0.75
+        }
+      },
+      "silence": {
+        "distance_addend": -25,
+        "use_silence_sound": true
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\oem_stock_heavy_data.json",
+    "rel_file": "data\\attachments\\oem_stock_heavy_data.json",
+    "basename": "oem_stock_heavy_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:oem_stock_heavy_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "melee",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.5,
+      "ads": {
+        "addend": 0.05
+      },
+      "aim_inaccuracy": {
+        "multiplier": 0.9
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.75
+        },
+        "yaw": {
+          "multiplier": 0.6
+        }
+      },
+      "melee": {
+        "distance": 2,
+        "range_angle": 40,
+        "cooldown": 0.4,
+        "damage": 5,
+        "knockback": 0.8,
+        "prep": 0.1
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\oem_stock_light_data.json",
+    "rel_file": "data\\attachments\\oem_stock_light_data.json",
+    "basename": "oem_stock_light_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:oem_stock_light_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "melee",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.3,
+      "ads": {
+        "addend": -0.02
+      },
+      "aim_inaccuracy": {
+        "multiplier": 1.1
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.85
+        },
+        "yaw": {
+          "multiplier": 0.8
+        }
+      },
+      "melee": {
+        "distance": 2,
+        "range_angle": 40,
+        "cooldown": 0.1,
+        "damage": 3,
+        "knockback": 0.4,
+        "prep": 0.1
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\oem_stock_tactical_data.json",
+    "rel_file": "data\\attachments\\oem_stock_tactical_data.json",
+    "basename": "oem_stock_tactical_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:oem_stock_tactical_data",
+    "_keys": [
+      "ads",
+      "inaccuracy",
+      "melee",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.4,
+      "ads": {
+        "addend": 0.035
+      },
+      "inaccuracy": {
+        "multiplier": 0.9
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.8
+        },
+        "yaw": {
+          "multiplier": 0.7
+        }
+      },
+      "melee": {
+        "distance": 2,
+        "range_angle": 40,
+        "cooldown": 0.2,
+        "damage": 4,
+        "knockback": 0.6,
+        "prep": 0.1
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\scope_1873_6x_data.json",
+    "rel_file": "data\\attachments\\scope_1873_6x_data.json",
+    "basename": "scope_1873_6x_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:scope_1873_6x_data",
+    "_keys": [
+      "ads_addend",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 1,
+      "ads_addend": 0.15,
+      "aim_inaccuracy": {
+        "multiplier": 0.66
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\scope_acog_ta31_data.json",
+    "rel_file": "data\\attachments\\scope_acog_ta31_data.json",
+    "basename": "scope_acog_ta31_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:scope_acog_ta31_data",
+    "_keys": [
+      "ads_addend",
+      "weight"
+    ],
+    "raw": {
+      "weight": 1.2,
+      "ads_addend": 0.015
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\scope_aug_default_data.json",
+    "rel_file": "data\\attachments\\scope_aug_default_data.json",
+    "basename": "scope_aug_default_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:scope_aug_default_data",
+    "_keys": [
+      "ads_addend",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.1,
+      "ads_addend": 0.1
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\scope_contender_data.json",
+    "rel_file": "data\\attachments\\scope_contender_data.json",
+    "basename": "scope_contender_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:scope_contender_data",
+    "_keys": [
+      "ads_addend",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 1.6,
+      "ads_addend": 0.05,
+      "aim_inaccuracy": {
+        "multiplier": 0.85
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\scope_elcan_4x_data.json",
+    "rel_file": "data\\attachments\\scope_elcan_4x_data.json",
+    "basename": "scope_elcan_4x_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:scope_elcan_4x_data",
+    "_keys": [
+      "ads_addend",
+      "weight"
+    ],
+    "raw": {
+      "weight": 1.6,
+      "ads_addend": 0.05
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\scope_hamr_data.json",
+    "rel_file": "data\\attachments\\scope_hamr_data.json",
+    "basename": "scope_hamr_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:scope_hamr_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.85,
+      "ads": {
+        "addend": 0.015
+      },
+      "aim_inaccuracy": {
+        "multiplier": 0.85
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\scope_lpvo_1_6_data.json",
+    "rel_file": "data\\attachments\\scope_lpvo_1_6_data.json",
+    "basename": "scope_lpvo_1_6_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:scope_lpvo_1_6_data",
+    "_keys": [
+      "ads_addend",
+      "weight"
+    ],
+    "raw": {
+      "weight": 1.3,
+      "ads_addend": 0.03
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\scope_mk5hd_data.json",
+    "rel_file": "data\\attachments\\scope_mk5hd_data.json",
+    "basename": "scope_mk5hd_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:scope_mk5hd_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.85,
+      "ads": {
+        "addend": 0.13
+      },
+      "aim_inaccuracy": {
+        "multiplier": 0.66
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\scope_retro_2x_data.json",
+    "rel_file": "data\\attachments\\scope_retro_2x_data.json",
+    "basename": "scope_retro_2x_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:scope_retro_2x_data",
+    "_keys": [
+      "ads_addend",
+      "weight"
+    ],
+    "raw": {
+      "weight": 1.6,
+      "ads_addend": 0.02
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\scope_scout_data.json",
+    "rel_file": "data\\attachments\\scope_scout_data.json",
+    "basename": "scope_scout_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:scope_scout_data",
+    "_keys": [
+      "ads_addend",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 2.0,
+      "ads_addend": 0.09,
+      "aim_inaccuracy": {
+        "multiplier": 0.75
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\scope_standard_8x_data.json",
+    "rel_file": "data\\attachments\\scope_standard_8x_data.json",
+    "basename": "scope_standard_8x_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:scope_standard_8x_data",
+    "_keys": [
+      "ads_addend",
+      "weight"
+    ],
+    "raw": {
+      "weight": 2.0,
+      "ads_addend": 0.09
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\scope_vudu_data.json",
+    "rel_file": "data\\attachments\\scope_vudu_data.json",
+    "basename": "scope_vudu_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:scope_vudu_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.85,
+      "ads": {
+        "addend": 0.015
+      },
+      "aim_inaccuracy": {
+        "multiplier": 0.9
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_552_data.json",
+    "rel_file": "data\\attachments\\sight_552_data.json",
+    "basename": "sight_552_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_552_data",
+    "_keys": [
+      "ads",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.4,
+      "ads": {
+        "addend": -0.015
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_acro_pistol_data.json",
+    "rel_file": "data\\attachments\\sight_acro_pistol_data.json",
+    "basename": "sight_acro_pistol_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_acro_pistol_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.4,
+      "aim_inaccuracy": {
+        "multiplier": 0.95
+      },
+      "ads": {
+        "addend": -0.02
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_acro_rifle_data.json",
+    "rel_file": "data\\attachments\\sight_acro_rifle_data.json",
+    "basename": "sight_acro_rifle_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_acro_rifle_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.5,
+      "aim_inaccuracy": {
+        "multiplier": 0.9
+      },
+      "ads": {
+        "addend": -0.02
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_coyote_data.json",
+    "rel_file": "data\\attachments\\sight_coyote_data.json",
+    "basename": "sight_coyote_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_coyote_data",
+    "_keys": [
+      "ads",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.25,
+      "ads": {
+        "addend": -0.03
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_deltapoint_pistol_data.json",
+    "rel_file": "data\\attachments\\sight_deltapoint_pistol_data.json",
+    "basename": "sight_deltapoint_pistol_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_deltapoint_pistol_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.4,
+      "aim_inaccuracy": {
+        "multiplier": 0.95
+      },
+      "ads": {
+        "addend": -0.02
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_deltapoint_rifle_data.json",
+    "rel_file": "data\\attachments\\sight_deltapoint_rifle_data.json",
+    "basename": "sight_deltapoint_rifle_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_deltapoint_rifle_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.5,
+      "aim_inaccuracy": {
+        "multiplier": 0.95
+      },
+      "ads": {
+        "addend": -0.02
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_exp3_data.json",
+    "rel_file": "data\\attachments\\sight_exp3_data.json",
+    "basename": "sight_exp3_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_exp3_data",
+    "_keys": [
+      "ads",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.35,
+      "ads": {
+        "addend": -0.02
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_fastfire_pistol_data.json",
+    "rel_file": "data\\attachments\\sight_fastfire_pistol_data.json",
+    "basename": "sight_fastfire_pistol_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_fastfire_pistol_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.4,
+      "aim_inaccuracy": {
+        "multiplier": 0.95
+      },
+      "ads": {
+        "addend": -0.02
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_fastfire_rifle_data.json",
+    "rel_file": "data\\attachments\\sight_fastfire_rifle_data.json",
+    "basename": "sight_fastfire_rifle_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_fastfire_rifle_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.5,
+      "aim_inaccuracy": {
+        "multiplier": 0.95
+      },
+      "ads": {
+        "addend": -0.02
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_okp7_data.json",
+    "rel_file": "data\\attachments\\sight_okp7_data.json",
+    "basename": "sight_okp7_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_okp7_data",
+    "_keys": [
+      "ads",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.4,
+      "ads": {
+        "addend": -0.01
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_p90_data.json",
+    "rel_file": "data\\attachments\\sight_p90_data.json",
+    "basename": "sight_p90_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_p90_data",
+    "_keys": [
+      "ads",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.35,
+      "ads": {
+        "addend": -0.02
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_pk06_pistol_data.json",
+    "rel_file": "data\\attachments\\sight_pk06_pistol_data.json",
+    "basename": "sight_pk06_pistol_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_pk06_pistol_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.4,
+      "aim_inaccuracy": {
+        "multiplier": 0.95
+      },
+      "ads": {
+        "addend": -0.02
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_pk06_rifle_data.json",
+    "rel_file": "data\\attachments\\sight_pk06_rifle_data.json",
+    "basename": "sight_pk06_rifle_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_pk06_rifle_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.5,
+      "aim_inaccuracy": {
+        "multiplier": 0.95
+      },
+      "ads": {
+        "addend": -0.02
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_rmr_dot_data.json",
+    "rel_file": "data\\attachments\\sight_rmr_dot_data.json",
+    "basename": "sight_rmr_dot_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_rmr_dot_data",
+    "_keys": [
+      "ads",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.1,
+      "ads": {
+        "addend": -0.05
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_sro_dot_data.json",
+    "rel_file": "data\\attachments\\sight_sro_dot_data.json",
+    "basename": "sight_sro_dot_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_sro_dot_data",
+    "_keys": [
+      "ads",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.1,
+      "ads": {
+        "addend": -0.04
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_srs_02_data.json",
+    "rel_file": "data\\attachments\\sight_srs_02_data.json",
+    "basename": "sight_srs_02_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_srs_02_data",
+    "_keys": [
+      "ads",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.8,
+      "ads": {
+        "addend": -0.025
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_t1_data.json",
+    "rel_file": "data\\attachments\\sight_t1_data.json",
+    "basename": "sight_t1_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_t1_data",
+    "_keys": [
+      "ads",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.2,
+      "ads": {
+        "addend": -0.02
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_t2_data.json",
+    "rel_file": "data\\attachments\\sight_t2_data.json",
+    "basename": "sight_t2_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_t2_data",
+    "_keys": [
+      "ads",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.25,
+      "ads": {
+        "addend": -0.015
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sight_uh1_data.json",
+    "rel_file": "data\\attachments\\sight_uh1_data.json",
+    "basename": "sight_uh1_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sight_uh1_data",
+    "_keys": [
+      "ads",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.3,
+      "ads": {
+        "addend": -0.01
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sniper_extended_mag_1_data.json",
+    "rel_file": "data\\attachments\\sniper_extended_mag_1_data.json",
+    "basename": "sniper_extended_mag_1_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sniper_extended_mag_1_data",
+    "_keys": [
+      "ads",
+      "extended_mag_level",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.5,
+      "ads": {
+        "addend": 0.03
+      },
+      "extended_mag_level": 1
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sniper_extended_mag_2_data.json",
+    "rel_file": "data\\attachments\\sniper_extended_mag_2_data.json",
+    "basename": "sniper_extended_mag_2_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sniper_extended_mag_2_data",
+    "_keys": [
+      "ads",
+      "extended_mag_level",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.8,
+      "ads": {
+        "addend": 0.05
+      },
+      "extended_mag_level": 2
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\sniper_extended_mag_3_data.json",
+    "rel_file": "data\\attachments\\sniper_extended_mag_3_data.json",
+    "basename": "sniper_extended_mag_3_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:sniper_extended_mag_3_data",
+    "_keys": [
+      "ads",
+      "extended_mag_level",
+      "weight"
+    ],
+    "raw": {
+      "weight": 1.2,
+      "ads": {
+        "addend": 0.08
+      },
+      "extended_mag_level": 3
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\stock_ak12_data.json",
+    "rel_file": "data\\attachments\\stock_ak12_data.json",
+    "basename": "stock_ak12_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:stock_ak12_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.148,
+      "ads": {
+        "addend": 0.01
+      },
+      "aim_inaccuracy": {
+        "multiplier": 0.9
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.8
+        },
+        "yaw": {
+          "multiplier": 0.8
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\stock_carbon_bone_c5_data.json",
+    "rel_file": "data\\attachments\\stock_carbon_bone_c5_data.json",
+    "basename": "stock_carbon_bone_c5_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:stock_carbon_bone_c5_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "melee",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.3,
+      "ads": {
+        "addend": -0.02
+      },
+      "aim_inaccuracy": {
+        "multiplier": 1.1
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.85
+        },
+        "yaw": {
+          "multiplier": 0.8
+        }
+      },
+      "melee": {
+        "distance": 2,
+        "range_angle": 40,
+        "cooldown": 0.1,
+        "damage": 3,
+        "knockback": 0.4,
+        "prep": 0.1
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\stock_hk_slim_line_data.json",
+    "rel_file": "data\\attachments\\stock_hk_slim_line_data.json",
+    "basename": "stock_hk_slim_line_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:stock_hk_slim_line_data",
+    "_keys": [
+      "ads",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.695,
+      "ads": {
+        "addend": 0.01
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.75
+        },
+        "yaw": {
+          "multiplier": 0.72
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\stock_m4ss_data.json",
+    "rel_file": "data\\attachments\\stock_m4ss_data.json",
+    "basename": "stock_m4ss_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:stock_m4ss_data",
+    "_keys": [
+      "ads",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.695,
+      "ads": {
+        "addend": 0.012
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.85
+        },
+        "yaw": {
+          "multiplier": 0.9
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\stock_militech_b5_data.json",
+    "rel_file": "data\\attachments\\stock_militech_b5_data.json",
+    "basename": "stock_militech_b5_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:stock_militech_b5_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "melee",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.5,
+      "ads": {
+        "multiplier": 1.1
+      },
+      "aim_inaccuracy": {
+        "multiplier": 0.87
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.68
+        },
+        "yaw": {
+          "multiplier": 0.6
+        }
+      },
+      "melee": {
+        "distance": 2,
+        "range_angle": 40,
+        "cooldown": 0.4,
+        "damage": 5,
+        "knockback": 0.8,
+        "prep": 0.1
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\stock_moe_data.json",
+    "rel_file": "data\\attachments\\stock_moe_data.json",
+    "basename": "stock_moe_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:stock_moe_data",
+    "_keys": [
+      "ads",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.15,
+      "ads": {
+        "addend": -0.03
+      },
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.85
+        }
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\stock_ripstock_data.json",
+    "rel_file": "data\\attachments\\stock_ripstock_data.json",
+    "basename": "stock_ripstock_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:stock_ripstock_data",
+    "_keys": [
+      "ads",
+      "aim_inaccuracy",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.12,
+      "ads": {
+        "multiplier": 0.82
+      },
+      "aim_inaccuracy": {
+        "multiplier": 1.05
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\stock_sba3_data.json",
+    "rel_file": "data\\attachments\\stock_sba3_data.json",
+    "basename": "stock_sba3_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:stock_sba3_data",
+    "_keys": [
+      "inaccuracy",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.1,
+      "recoil": {
+        "yaw": {
+          "multiplier": 0.8
+        }
+      },
+      "inaccuracy": {
+        "multiplier": 0.78
+      }
+    }
+  },
+  {
+    "source": "data",
+    "category": "attachments",
+    "file": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\versions\\Lucky World Invasion 2.7.2\\tacz\\tacz_default_gun\\data\\tacz\\data\\attachments\\stock_tactical_ar_data.json",
+    "rel_file": "data\\attachments\\stock_tactical_ar_data.json",
+    "basename": "stock_tactical_ar_data",
+    "error": null,
+    "namespace_guess": "tacz",
+    "data_id": "tacz:stock_tactical_ar_data",
+    "_keys": [
+      "melee",
+      "recoil",
+      "weight"
+    ],
+    "raw": {
+      "weight": 0.4,
+      "recoil": {
+        "pitch": {
+          "multiplier": 0.75
+        },
+        "yaw": {
+          "multiplier": 0.75
+        }
+      },
+      "melee": {
+        "distance": 2,
+        "range_angle": 40,
+        "cooldown": 0.2,
+        "damage": 4,
+        "knockback": 0.6,
+        "prep": 0.1
+      }
+    }
+  }
+]
