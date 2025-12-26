@@ -1,5 +1,6 @@
 # Copy pre-generated chests from staging row into village houses
 # Run: /function village:update_chests
+# WARNING: /clone needs chunks loaded for source and destination!
 
 execute in minecraft:overworld run clone 282 55 491 282 55 491 241 65 471 replace
 execute in minecraft:overworld run clone 284 55 491 284 55 491 225 65 497 replace
