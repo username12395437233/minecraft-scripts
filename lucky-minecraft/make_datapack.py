@@ -463,15 +463,6 @@ def main():
     ap.add_argument("--ak-house-index", type=int, default=DEFAULT_AK_HOUSE_INDEX,
                     help=f"0-based house index to contain guaranteed gun (default: {DEFAULT_AK_HOUSE_INDEX})")
     
-    if SPAWN_AROUND_CHESTS:
-        spawn_text = build_spawn_mobs_function(
-            chest_coords=dests,               # или VILLAGE_CHEST_DESTS
-            mobs_per_chest=MOBS_PER_CHEST,
-            rmin=SPAWN_RADIUS_MIN,
-            rmax=SPAWN_RADIUS_MAX,
-            dimension="minecraft:overworld",
-        )
-        (functions_dir / "spawn_mobs.mcfunction").write_text(spawn_text, encoding="utf-8")
 
 
     args = ap.parse_args()
@@ -547,6 +538,17 @@ def main():
         ),
         encoding="utf-8",
     )
+
+    
+    if SPAWN_AROUND_CHESTS:
+        spawn_text = build_spawn_mobs_function(
+            chest_coords=dests,               # или VILLAGE_CHEST_DESTS
+            mobs_per_chest=MOBS_PER_CHEST,
+            rmin=SPAWN_RADIUS_MIN,
+            rmax=SPAWN_RADIUS_MAX,
+            dimension="minecraft:overworld",
+        )
+        (functions_dir / "spawn_mobs.mcfunction").write_text(spawn_text, encoding="utf-8")
 
     print("Datapack generated:", pack_dir)
     print("Functions to run in-game:")
