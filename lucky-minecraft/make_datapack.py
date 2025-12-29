@@ -27,6 +27,17 @@ STAGING_Z = 491
 STAGING_HOUSES = 8
 STAGING_STEP_X = 2
 
+SPAWN_AROUND_CHESTS = True
+SPAWN_RADIUS_MIN = 5
+SPAWN_RADIUS_MAX = 20
+
+# сколько и каких мобов на каждый сундук
+MOBS_PER_CHEST = [
+    ("minecraft:zombie", 2, '{PersistenceRequired:1b}'),
+    ("minecraft:skeleton", 1, '{PersistenceRequired:1b}'),
+    ("minecraft:spider", 1, '{PersistenceRequired:1b}'),
+]
+
 # --- DESTINATIONS (where chests should be cloned into village houses)
 # IMPORTANT: /clone requires loaded chunks for BOTH source and destination!
 VILLAGE_CHEST_DESTS: List[Tuple[int, int, int]] = [
@@ -102,6 +113,56 @@ RESOURCES_ENTRIES = [
 # ============================================================
 # END CONFIG
 # ============================================================
+
+def build_spawn_mobs_function(
+    chest_coords: List[Tuple[int, int, int]],
+    mobs_per_chest: List[Tuple[str, int, str]],
+    rmin: int,
+    rmax: int,
+    dimension: str = "minecraft:overworld",
+) -> str:
+    lines: List[str] = []
+    lines.append("# One-time spawn mobs around chests")
+    lines.append("# Run: /function village:spawn_mobs")
+    lines.append("# WARNING: chunks must be loaded (destinations)!")
+    lines.append("")
+
+    for i, (x, y, z) in enumerate(chest_coords, start=1):
+        tag = f"village_c{i}"
+        lines.append(f"# ---- Chest {i}: {x} {y} {z} ----")
+
+        # summon markers at chest center, tagged by mob type
+        for mob_id, count, _nbt in mobs_per_chest:
+            mob_tag = "mob_" + mob_id.split(":", 1)[1]
+            for _ in range(int(count)):
+                lines.append(
+                    f'execute in {dimension} run summon minecraft:marker {x} {y} {z} '
+                    f'{{Tags:["village_tmp","{tag}","{mob_tag}"]}}'
+                )
+
+        # spread markers
+        lines.append(
+            f"execute in {dimension} run spreadplayers {x} {z} {rmin} {rmax} false "
+            f"@e[type=minecraft:marker,tag=village_tmp,tag={tag},distance=..1]"
+        )
+
+        # summon mobs at markers (simple air + solid-under check)
+        for mob_id, _count, nbt in mobs_per_chest:
+            mob_tag = "mob_" + mob_id.split(":", 1)[1]
+            lines.append(
+                f"execute in {dimension} as @e[type=minecraft:marker,tag=village_tmp,tag={tag},tag={mob_tag}] "
+                f"at @s if block ~ ~ ~ air unless block ~ ~-1 ~ air "
+                f"run summon {mob_id} ~ ~ ~ {nbt}"
+            )
+
+        # cleanup markers within radius (rmax + запас)
+        lines.append(
+            f"execute in {dimension} run kill "
+            f"@e[type=minecraft:marker,tag=village_tmp,tag={tag},distance=..{rmax + 5}]"
+        )
+        lines.append("")
+
+    return "\n".join(lines).strip() + "\n"
 
 
 def load_destinations_csv(path: Path) -> List[Tuple[int, int, int]]:
@@ -401,6 +462,17 @@ def main():
     ap.add_argument("--ak-id", default=DEFAULT_AK_ID, help=f"Gun id to guarantee once (default: {DEFAULT_AK_ID})")
     ap.add_argument("--ak-house-index", type=int, default=DEFAULT_AK_HOUSE_INDEX,
                     help=f"0-based house index to contain guaranteed gun (default: {DEFAULT_AK_HOUSE_INDEX})")
+    
+    if SPAWN_AROUND_CHESTS:
+        spawn_text = build_spawn_mobs_function(
+            chest_coords=dests,               # или VILLAGE_CHEST_DESTS
+            mobs_per_chest=MOBS_PER_CHEST,
+            rmin=SPAWN_RADIUS_MIN,
+            rmax=SPAWN_RADIUS_MAX,
+            dimension="minecraft:overworld",
+        )
+        (functions_dir / "spawn_mobs.mcfunction").write_text(spawn_text, encoding="utf-8")
+
 
     args = ap.parse_args()
 
