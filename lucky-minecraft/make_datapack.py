@@ -10,22 +10,8 @@ from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 
 # ============================================================
-# CONFIG (EDIT HERE)
+# MOBS
 # ============================================================
-
-# Minecraft datapack format
-PACK_FORMAT = 15  # Minecraft 1.20.1
-
-# Namespace inside datapack (folder data/<NAMESPACE>/...)
-DEFAULT_NAMESPACE = "village"
-
-# --- STAGING ROW (where chests are generated/filled first)
-STAGING_DIMENSION = "minecraft:overworld"
-STAGING_BASE_X = 282
-STAGING_Y = 55
-STAGING_Z = 491
-STAGING_HOUSES = 8
-STAGING_STEP_X = 2
 
 SPAWN_AROUND_CHESTS = True
 SPAWN_RADIUS_MIN = 5
@@ -37,6 +23,33 @@ MOBS_PER_CHEST = [
     ("minecraft:skeleton", 1, '{PersistenceRequired:1b}'),
     ("minecraft:spider", 1, '{PersistenceRequired:1b}'),
 ]
+
+# ============================================================
+# MOBS END
+# ============================================================
+# ============================================================
+# CAR
+# ============================================================
+
+ENABLE_BUILD_CAR_FUNCTION = True
+CAR_FORWARD_OFFSET = 5  # сколько блоков впереди игрока
+
+# ============================================================
+# CAR END
+# ============================================================
+
+# Minecraft datapack format
+PACK_FORMAT = 15  # Minecraft 1.20.1
+# Namespace inside datapack (folder data/<NAMESPACE>/...)
+DEFAULT_NAMESPACE = "village"
+
+# --- STAGING ROW (where chests are generated/filled first)
+STAGING_DIMENSION = "minecraft:overworld"
+STAGING_BASE_X = 282
+STAGING_Y = 55
+STAGING_Z = 491
+STAGING_HOUSES = 8
+STAGING_STEP_X = 2
 
 # --- DESTINATIONS (where chests should be cloned into village houses)
 # IMPORTANT: /clone requires loaded chunks for BOTH source and destination!
@@ -114,6 +127,79 @@ RESOURCES_ENTRIES = [
 # END CONFIG
 # ============================================================
 
+
+def build_car_function(forward_offset: int = 5) -> str:
+    p = f"execute rotated as @s positioned ^ ^ ^{int(forward_offset)} run "
+    lines = [
+        "# Build a small car in front of you (aligned to facing)",
+        "# Run: /function village:build_car",
+        "",
+        p + "fill ^-2 ^0 ^-1 ^2 ^4 ^6 minecraft:air replace",
+        "",
+        p + "setblock ^-1 ^0 ^0 minecraft:black_concrete",
+        p + "setblock ^1 ^0 ^0 minecraft:black_concrete",
+        p + "setblock ^-1 ^0 ^4 minecraft:black_concrete",
+        p + "setblock ^1 ^0 ^4 minecraft:black_concrete",
+        "",
+        p + "fill ^-1 ^0 ^1 ^1 ^0 ^3 minecraft:red_concrete",
+        p + "fill ^-1 ^1 ^1 ^-1 ^1 ^3 minecraft:red_concrete",
+        p + "fill ^1 ^1 ^1 ^1 ^1 ^3 minecraft:red_concrete",
+        p + "fill ^-1 ^1 ^0 ^1 ^1 ^0 minecraft:red_concrete",
+        p + "fill ^-1 ^1 ^4 ^1 ^1 ^4 minecraft:red_concrete",
+        "",
+        p + "setblock ^-1 ^1 ^4 minecraft:sea_lantern",
+        p + "setblock ^1 ^1 ^4 minecraft:sea_lantern",
+        p + "setblock ^-1 ^1 ^0 minecraft:redstone_lamp",
+        p + "setblock ^1 ^1 ^0 minecraft:redstone_lamp",
+        "",
+        p + "fill ^-1 ^2 ^1 ^-1 ^2 ^3 minecraft:glass",
+        p + "fill ^1 ^2 ^1 ^1 ^2 ^3 minecraft:glass",
+        p + "fill ^-1 ^2 ^4 ^1 ^2 ^4 minecraft:glass",
+        p + "fill ^-1 ^2 ^0 ^1 ^2 ^0 minecraft:glass",
+        "",
+        p + "fill ^-1 ^3 ^1 ^1 ^3 ^3 minecraft:red_concrete",
+        p + "setblock ^0 ^1 ^2 minecraft:gray_wool",
+        p + "setblock ^0 ^0 ^4 minecraft:light_gray_concrete",
+        "",
+    ]
+    return "\n".join(lines).strip() + "\n"
+
+def build_car_function(forward_offset: int = 5) -> str:
+    p = f"execute rotated as @s positioned ^ ^ ^{int(forward_offset)} run "
+    lines = [
+        "# Build a small car in front of you (aligned to facing)",
+        "# Run: /function village:build_car",
+        "",
+        p + "fill ^-2 ^0 ^-1 ^2 ^4 ^6 minecraft:air replace",
+        "",
+        p + "setblock ^-1 ^0 ^0 minecraft:black_concrete",
+        p + "setblock ^1 ^0 ^0 minecraft:black_concrete",
+        p + "setblock ^-1 ^0 ^4 minecraft:black_concrete",
+        p + "setblock ^1 ^0 ^4 minecraft:black_concrete",
+        "",
+        p + "fill ^-1 ^0 ^1 ^1 ^0 ^3 minecraft:red_concrete",
+        p + "fill ^-1 ^1 ^1 ^-1 ^1 ^3 minecraft:red_concrete",
+        p + "fill ^1 ^1 ^1 ^1 ^1 ^3 minecraft:red_concrete",
+        p + "fill ^-1 ^1 ^0 ^1 ^1 ^0 minecraft:red_concrete",
+        p + "fill ^-1 ^1 ^4 ^1 ^1 ^4 minecraft:red_concrete",
+        "",
+        p + "setblock ^-1 ^1 ^4 minecraft:sea_lantern",
+        p + "setblock ^1 ^1 ^4 minecraft:sea_lantern",
+        p + "setblock ^-1 ^1 ^0 minecraft:redstone_lamp",
+        p + "setblock ^1 ^1 ^0 minecraft:redstone_lamp",
+        "",
+        p + "fill ^-1 ^2 ^1 ^-1 ^2 ^3 minecraft:glass",
+        p + "fill ^1 ^2 ^1 ^1 ^2 ^3 minecraft:glass",
+        p + "fill ^-1 ^2 ^4 ^1 ^2 ^4 minecraft:glass",
+        p + "fill ^-1 ^2 ^0 ^1 ^2 ^0 minecraft:glass",
+        "",
+        p + "fill ^-1 ^3 ^1 ^1 ^3 ^3 minecraft:red_concrete",
+        p + "setblock ^0 ^1 ^2 minecraft:gray_wool",
+        p + "setblock ^0 ^0 ^4 minecraft:light_gray_concrete",
+        "",
+    ]
+    return "\n".join(lines).strip() + "\n"
+
 def build_spawn_mobs_function(
     chest_coords: List[Tuple[int, int, int]],
     mobs_per_chest: List[Tuple[str, int, str]],
@@ -140,25 +226,25 @@ def build_spawn_mobs_function(
                     f'{{Tags:["village_tmp","{tag}","{mob_tag}"]}}'
                 )
 
-        # spread markers
+        # spread markers in ring 5..20 blocks
         lines.append(
             f"execute in {dimension} run spreadplayers {x} {z} {rmin} {rmax} false "
-            f"@e[type=minecraft:marker,tag=village_tmp,tag={tag},distance=..1]"
+            f"@e[type=minecraft:marker,tag=village_tmp,tag={tag}]"
         )
 
-        # summon mobs at markers (simple air + solid-under check)
+        # summon mobs at markers on top surface (reliable)
         for mob_id, _count, nbt in mobs_per_chest:
             mob_tag = "mob_" + mob_id.split(":", 1)[1]
             lines.append(
                 f"execute in {dimension} as @e[type=minecraft:marker,tag=village_tmp,tag={tag},tag={mob_tag}] "
-                f"at @s if block ~ ~ ~ air unless block ~ ~-1 ~ air "
-                f"run summon {mob_id} ~ ~ ~ {nbt}"
+                f"at @s positioned over motion_blocking_no_leaves "
+                f"run summon {mob_id} ~ ~1 ~ {nbt}"
             )
 
-        # cleanup markers within radius (rmax + запас)
+        # cleanup markers within radius
         lines.append(
             f"execute in {dimension} run kill "
-            f"@e[type=minecraft:marker,tag=village_tmp,tag={tag},distance=..{rmax + 5}]"
+            f"@e[type=minecraft:marker,tag=village_tmp,tag={tag},distance=..{rmax + 10}]"
         )
         lines.append("")
 
@@ -550,13 +636,17 @@ def main():
         )
         (functions_dir / "spawn_mobs.mcfunction").write_text(spawn_text, encoding="utf-8")
 
-    print("Datapack generated:", pack_dir)
-    print("Functions to run in-game:")
+    if ENABLE_BUILD_CAR_FUNCTION:
+        (functions_dir / "build_car.mcfunction").write_text(
+            build_car_function(CAR_FORWARD_OFFSET),
+            encoding="utf-8"
+        )
+        
     print(" - /function " + ns + ":fill_village")
     print(" - /function " + ns + ":update_chests")
-    print("Loot tables:")
-    print(" -", loot_dir / "house.json")
-    print(" -", loot_dir / "house_ak.json")
+    print(" - /function " + ns + ":spawn_mobs")
+    print(" - /function " + ns + ":build_car")
+
     print(f"Destinations used: {min(args.houses, len(dests))} of {len(dests)} coords")
 
 
